@@ -136,9 +136,10 @@
     transform: scale(1.05);
   }
   .produto img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
   }
   .produto-btn {
     background: #004080;
